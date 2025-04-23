@@ -1,10 +1,12 @@
+HTML (index.html)
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>Услуги и сервисы</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" >
 </head>
 <body>
 
@@ -12,27 +14,46 @@
     <button class="header__icon" aria-label="Меню">
       <img src="img/burger-menu.svg" alt="Меню">
     </button>
-
+    <div class="divider"></div>
     <a class="header__logo" href="#">
-      <img src="img/Logo.svg" alt="Логотип">
+      <img src="img/Logo.svg" alt="Логотип" >
     </a>
-
     <div class="header__icons">
       <button class="header__icon" aria-label="Телефон">
-        <img src="img/phone.svg" alt="Телефон" />
+        <img src="img/phone.svg" alt="Телефон" >
       </button>
       <button class="header__icon" aria-label="Сообщения">
-        <img src="img/message.svg" alt="Сообщения" />
+        <img src="img/message.svg" alt="Сообщения" >
       </button>
       <button class="header__icon" aria-label="Корзина">
-        <img src="img/group.svg" alt="Корзина" />
+        <img src="img/group.svg" alt="Корзина" >
       </button>
+      <div class="divider"></div>
+      <button class="header__icon" aria-label="Профиль">
+        <img src="img/setting.svg" alt="Профиль" >
+      </button>
+      <button class="header__icon" aria-label="Помощь">
+        <img src="img/search.svg" alt="Помощь" >
+      </button>
+      <div class="header__text-icon">
+        <span>Оставить заявку</span>
+        <img src="img/setting.svg" alt="" />
+      </div>
+    
+      <div class="header__text-icon">
+        <span>Статус ремонта</span>
+        <img src="img/search.svg" alt="Статус ремонта" />
+      </div>
     </div>
   </header>
-
+  <div class="main-layout">
   <section class="services">
     <div class="services__content">
-      <h2 class="services__title">Услуги и сервисы</h2>
+      <div class="services__title-wrapper">
+        <span class="services__line"></span>
+        <h2 class="services__title">Услуги и сервисы</h2>
+      </div>
+      
 
       <nav class="services__menu">
         <a href="#" class="services__tab">Ремонтируемые устройства</a>
@@ -46,15 +67,17 @@
       </p>
 
       <p class="services__text">
-        Мы успешно работаем с 1992 года и заслужили репутацию надёжного партнёра.
+Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
       </p>
-
-      <a class="services__link" href="#">Читать далее</a>
+      <a class="services__link" href="#">
+        <img src="img/icon.svg" alt="" class="services__link-icon">
+        Читать далее
+      </a>
     </div>
 
     <img class="services__image" src="img/Photo.jpg" alt="Табличка CPS">
   </section>
-
+</div>
 </body>
 </html>
 
