@@ -83,6 +83,11 @@ body {
   font-weight: 500;
   color: #1B1C21;
 }
+.header__main-text{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 .services {
   padding: 16px;
