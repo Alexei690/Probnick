@@ -8,88 +8,76 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__left">
-      <div class="header__burger-logo-wrapper">
-      <button class="header__icon" aria-label="Меню">
-        <img src="img/burger-menu.svg" alt="Меню" />
-      </button>
-      <a class="header__logo" href="#">
-        <img src="img/Logo.svg" alt="Логотип" />
-      </a>
-      <div class="header__burger-logo-wrapper-container">
-      <div class="divider"></div>
-      <button class="header__icon"><img src="img/setting.svg" alt="" /></button>
-      <button class="header__icon"><img src="img/search.svg" alt="" /></button>
-    </div>
-    </div>
-      <div class="header__title-wrapper">
-        <span class="header__line"></span>
-        <h1 class="header__title">Услуги и сервисы</h1>
+    <div class="wrapper header__wrapper">
+      <div class="wrapper header__wrapper_left">
+        <span class="icon">
+          <img  src="./img/burger-menu.svg" alt="burger-menu"/>
+        </span>
+        <img class="logo" src="./img/Logo.svg" alt="CPS"/>
+        <span class="separator"></span>
       </div>
-    </div>
-
-    <div class="header__icons">
-        <button class="header__icon"><img src="img/phone.svg" alt="" /></button>
-        <button class="header__icon"><img src="img/message.svg" alt="" /></button>
-        <button class="header__icon"><img src="img/group.svg" alt="" /></button>
-        <div class="divider"></div>
-        <button class="header__icon"><img src="img/setting.svg" alt="" /></button>
-        <button class="header__icon"><img src="img/search.svg" alt="" /></button>
-      </div>
-      <div class="header__main-text">
-        <span>Оставить заявку</span>
-        <div class="header__text-icon">
-          <img src="img/setting.svg" alt="" />
+      <div class="wrapper">
+        <div class="wrapper contact">
+          <span class="icon">
+            <img src="./img/phone.svg" alt="phone"/>
+          </span>
+          <span class="icon">
+            <img src="./img/message.svg" alt="message"/>
+          </span>
+          <span class="icon">
+            <img src="./img/group.svg" alt="icon"/>
+          </span>
+          <span class="separator"></span>
         </div>
-      </div>
-      <div class="header__main-text">
-        <span>Статус ремонта</span>
-        <div class="header__text-icon">
-          <img src="img/search.svg" alt="" />
+        <div class="wrapper">
+          <span class="icon">
+            <img src="./img/setting.svg" alt="setting"/>
+          </span>
+          <span class="icon-text">Оставить заявку</span>
+        </div>
+        <div class="wrapper">
+          <span class="icon">
+            <img src="./img/search.svg" alt="search"/>
+          </span>
+          <span class="icon-text">Статус ремонта</span>
         </div>
       </div>
     </div>
   </header>
-
-  <main class="main-layout">
-    <section class="services">
-      <div class="services__content">
-        <div class="services__title-wrapper">
-          <span class="services__line"></span>
-          <h1 class="services__title">Услуги и сервисы</h1>
-          
-        </div>
-
-        <nav class="services__menu">
-          <a href="#" class="services__tab">Ремонтируемые бренды</a>
-          <a href="#" class="services__tab">Ремонтируемые устройства</a>
-          <a href="#" class="services__tab">Цены на услуги</a>
-          <a href="#" class="services__tab">Адреса сервисных центров</a>
-          <a href="#" class="services__tab">Специальные цены</a>
-        </nav>
-        <p class="services__text-mobile">
-          Мы являемся авторизованным <br> сервисным центром по ремонту техники <br> Dell.
-           Только у нас вы можете <br>отремонтировать свой ноутбук Dell с <br>официальной гарантией производителя.
+  <main>
+    <div class="title__wrapper">
+      <spna class="title__line"></spna>
+      <h1 class="title">Услуги и сервисы</h1>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list wrapper">
+        <li class="menu__item">Ремонтируемые бренды</li>
+        <li class="menu__item">Ремонтируемые устройства</li>
+        <li class="menu__item">Цены на услуги</li>
+        <li class="menu__item">Адреса сервисных центров</li>
+        <li class="menu__item">Специальные цены</li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="info">
+        <p class="text">
+          Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+          Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
         </p>
-        <div class="services__text-tablet-conteiner"></div>
-          <p class="services__text-tablet">
-            Мы являемся авторизованным сервисным <br>центром по ремонту техники Dell. 
-            Только у нас<br> вы можете отремонтировать свой ноутбук<br> Dell с официальной гарантией<br> производителя.</p>
-           <p class="services__text-tablet"> Мы успешно работаем с 1992 года и<br> заслужили репутацию надежного партнера</p>
-          </div>
-          
-        <p class="services__text-computer">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-
-          Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-        <a class="services__link" href="#">
-          <img src="img/icon.svg" alt="" class="services__link-icon" />
-          Читать далее
-        </a>
+        <p class="text text-additional">
+          Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+          <span>
+            , что подтверждает большое количество постоянных клиентов. 
+            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+          </span>
+        </p>
+        <div class="read">
+          <img src="img/icon.svg" alt="arrow-down"/>
+          <span>Читать далее</span>
+        </div>
       </div>
-
-      <img class="services__image" src="img/Photo.jpg" alt="Табличка CPS" />
-    </section>
+      <img class="main__img" src="./img/Photo.jpg" alt="image"/>
+    </div>
   </main>
 </body>
 </html>
-
